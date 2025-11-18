@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadet Route</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Baaki sara CSS same hai, sirf title/naam change kiya hai -->
+  <style>
+    /* ...CSS same as pehle wala (yahan se tum pura pehle wala CSS paste kar do)... */
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">CADET ROUTE</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn">Join Cadet Route</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home">
+      <div>
+        <p class="chip">Welcome to Cadet Route</p>
+        <h1 class="hero-title">
+          Cadet Route<br />
+          <span style="font-size: 1.3rem; font-weight: 500;">
+            Your companion for NDA & SSB journey.
+          </span>
+        </h1>
+        <p class="hero-subtitle">
+          Yahaan par tum apni defence journey, SSB preparation, daily routine
+          aur guidance ko showcase kar sakte ho. Log tumhari kahani, plans
+          aur progress dekh sakte hain.
+        </p>
+
+        <div class="hero-tags">
+          <span class="tag">NDA Prep</span>
+          <span class="tag">SSB Guidance</span>
+          <span class="tag">Cadet Lifestyle</span>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn">Explore Cadet Route</a>
+          <a href="#contact" class="btn" style="border-style: dashed;">
+            Connect with Me
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>About Cadet Route</h3>
+        <p>
+          Cadet Route is your personal space to share how you prepare,
+          what you learn every day, and how you are moving closer to the uniform.
+        </p>
+        <div class="hero-stats">
+          <div class="stat">
+            <span>1</span>
+            Dream: Wear the Uniform
+          </div>
+          <div class="stat">
+            <span>Daily</span>
+            Discipline & Growth
+          </div>
+          <div class="stat">
+            <span>100%</span>
+            Dedication to Defence
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Baaki About / Projects / Contact section wahi rakh sakta hai,
+         sirf text apne hisaab se change kar sakta hai -->
+  </main>
+
+  <footer>
+    © <span id="year"></span> Cadet Route. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    function handleSubmit(event) {
+      event.preventDefault();
+      alert("Thank you! Your message has been recorded (demo only).");
+      event.target.reset();
+    }
+  </script>
+</body>
+            </html>
